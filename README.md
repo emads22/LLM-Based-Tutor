@@ -21,13 +21,16 @@ LLM Based Tutor is a tool designed to generate detailed explanations for technic
    conda activate tutor
 3. Ensure that your environment has the required dependencies installed.
 4. Create a `.env` file and add your OpenAI API key as `OPENAI_API_KEY`.
-5. Run the script using `python main.py`.
+5. Launch Jupyter Lab:
+   ```bash
+   jupyter lab
+6. Open the `llm_based_tutor.ipynb` notebook in Jupyter Lab and run the cells step-by-step.
 
 ## Usage
-1. Run the script using `python main.py`.
-2. The tool will interactively ask questions and provide explanations using either the GPT or LLAMA model.
-3. Results are dynamically displayed in a Jupyter/IPython environment.
-4. To create a tutor for a different topic, simply modify the prompts in the `user_prompt` function.
+1. Open Jupyter Lab and navigate to the `llm_based_tutor.ipynb` notebook.
+2. Run the notebook cells sequentially.
+3. The tool will interactively ask questions and provide explanations using either the GPT or LLAMA model.
+4. Results are dynamically displayed in the Jupyter Lab interface.
 
 ## Contributing
 Contributions are welcome! Here are some ways you can contribute to the project:
