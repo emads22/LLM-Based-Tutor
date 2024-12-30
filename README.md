@@ -18,7 +18,7 @@ LLM Based Tutor is a tool designed to generate detailed explanations for technic
 2. Create and activate a conda environment using the provided `tutor_env.yml` file:
    ```bash
    conda env create -f tutor_env.yml
-   conda activate tutor_env
+   conda activate tutor
 3. Ensure that your environment has the required dependencies installed.
 4. Create a `.env` file and add your OpenAI API key as `OPENAI_API_KEY`.
 5. Run the script using `python main.py`.
